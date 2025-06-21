@@ -27,7 +27,7 @@ const Companies = () => {
                         placeholder="Filter by name"
                         onChange={(e) => setInput(e.target.value)}
                     />
-                    <Button onClick={() => navigate("https://job-bharat.onrender.com/api/v1/admin/companies/create")}>New Company</Button>
+                    <Button onClick={() => navigate("https://job-portal-aatf.onrender.com/api/v1/admin/companies/create")}>New Company</Button>
                 </div>
                 <CompaniesTable/>
             </div>

@@ -15,7 +15,7 @@ const Applicants = () => {
     useEffect(() => {
         const fetchAllApplicants = async () => {
             try {
-                const res = await axios.get("https://job-bharat.onrender.com/api/v1/user/applicants", { withCredentials: true });
+                const res = await axios.get("https://job-portal-aatf.onrender.com/api/v1/user/applicants", { withCredentials: true });
                 dispatch(setAllApplicants(res.data.job));
             } catch (error) {
                 console.log(error);

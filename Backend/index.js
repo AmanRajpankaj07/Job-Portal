@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://job-bharat.onrender.com',
+    origin:'https://job-portal-aatf.onrender.com',
     credentials:true
 }
 
